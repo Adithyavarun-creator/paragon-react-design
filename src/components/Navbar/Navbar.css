@@ -173,7 +173,6 @@
     height: 90vh;
     border: 5px solid greenyellow;
     z-index: 20;
-
   }
   .navmobileClose {
     position: absolute;
@@ -219,7 +218,7 @@
   .navmobileContainer {
     display: flex;
     flex-direction: column;
-    gap: 55px;
+    gap: 75px;
     position: fixed;
     top: 0;
     right: 0;
