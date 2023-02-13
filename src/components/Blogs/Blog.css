@@ -1,0 +1,450 @@
+@media (min-width: 1281px) {
+  .blogContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 20px 20px;
+  }
+
+  .blogBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    position: relative;
+  }
+
+  .blogImage {
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+  }
+
+  .blogPostdate {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    background-color: black;
+    padding: 3px 4px;
+  }
+
+  .blogDate {
+    font-size: 16px;
+    color: white;
+  }
+
+  .blogHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+
+  .blogArticle {
+    padding: 10px 10px;
+  }
+
+  .blogViewItem {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .blogIcon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .blogViews {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .blogReadBtn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+  }
+
+  .blogReadButton {
+    padding: 12px 9px;
+    background-color: black;
+    border: none;
+    offset: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .blogContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 20px 20px;
+  }
+
+  .blogBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    position: relative;
+  }
+
+  .blogImage {
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+  }
+
+  .blogPostdate {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    background-color: black;
+    padding: 3px 4px;
+  }
+
+  .blogDate {
+    font-size: 16px;
+    color: white;
+  }
+
+  .blogHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+
+  .blogArticle {
+    padding: 10px 10px;
+  }
+
+  .blogViewItem {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .blogIcon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .blogViews {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .blogReadBtn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+  }
+
+  .blogReadButton {
+    padding: 12px 9px;
+    background-color: black;
+    border: none;
+    offset: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .blogContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 20px 20px;
+  }
+
+  .blogBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    position: relative;
+  }
+
+  .blogImage {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+  }
+
+  .blogPostdate {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    background-color: black;
+    padding: 3px 4px;
+  }
+
+  .blogDate {
+    font-size: 14px;
+    color: white;
+  }
+
+  .blogHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+
+  .blogArticle {
+    padding: 10px 10px;
+  }
+
+  .blogViewItem {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .blogIcon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .blogViews {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .blogReadBtn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+  }
+
+  .blogReadButton {
+    padding: 12px 9px;
+    background-color: black;
+    border: none;
+    offset: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .blogContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 20px 20px;
+  }
+
+  .blogBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    position: relative;
+  }
+
+  .blogImage {
+    width: 100%;
+    height: 150px;
+    object-fit: fill;
+  }
+
+  .blogPostdate {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    background-color: black;
+    padding: 3px 4px;
+  }
+
+  .blogDate {
+    font-size: 13px;
+    color: white;
+  }
+
+  .blogHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+
+  .blogHeadingtext {
+    font-size: 17px;
+  }
+
+  .blogAuthorname {
+    font-size: 8px;
+  }
+
+  .blogArticle {
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+
+  .blogViewItem {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .blogIcon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .blogViews {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .blogReadBtn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+  }
+
+  .blogReadButton {
+    padding: 8px 6px;
+    background-color: black;
+    border: none;
+    offset: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .blogContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 20px 20px;
+    /* justify-content: center; */
+  }
+
+  .blogBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    position: relative;
+  }
+
+  .blogImage {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+  }
+
+  .blogPostdate {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    background-color: black;
+    padding: 3px 4px;
+  }
+
+  .blogDate {
+    font-size: 13px;
+    color: white;
+  }
+
+  .blogHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+
+  .blogHeadingtext {
+    font-size: 17px;
+  }
+
+  .blogAuthorname {
+    font-size: 8px;
+  }
+
+  .blogArticle {
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+
+  .blogViewItem {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  .blogIcon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .blogViews {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .blogReadBtn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+  }
+
+  .blogReadButton {
+    padding: 8px 6px;
+    background-color: black;
+    border: none;
+    offset: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+}

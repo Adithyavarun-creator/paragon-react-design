@@ -1,0 +1,186 @@
+@media (min-width: 1281px) {
+  .serviceContainer {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .serviceBox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.4s ease-in;
+  }
+
+  .serviceBox:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .serviceImage {
+    object-fit: fill;
+    height: 50px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .serviceContainer {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .serviceBox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.4s ease-in;
+  }
+
+  .serviceBox:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .serviceImage {
+    object-fit: fill;
+    height: 50px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .serviceContainer {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .serviceBox {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.4s ease-in;
+  }
+
+  .serviceBox:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .serviceImage {
+    object-fit: fill;
+    height: 50px;
+    width: 100%;
+  }
+  .serviceImagetext {
+    font-size: 13px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .serviceContainer {
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .serviceBox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.4s ease-in;
+  }
+
+  .serviceBox:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .serviceImage {
+    object-fit: fill;
+    height: 50px;
+    width: 100%;
+  }
+  .serviceImagetext {
+    font-size: 13px;
+    font-weight: bolder;
+  }
+
+  .serviceImagetext {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .serviceContainer {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 150px;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .serviceBox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.4s ease-in;
+  }
+
+  .serviceBox:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .serviceImage {
+    object-fit: fill;
+    height: 50px;
+    width: 100%;
+  }
+  .serviceImagetext {
+    font-size: 12px;
+    font-weight: bolder;
+  }
+}

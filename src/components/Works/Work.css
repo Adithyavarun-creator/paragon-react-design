@@ -1,0 +1,397 @@
+@media (min-width: 1281px) {
+  .workContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 20px 20px;
+  }
+
+  .workBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    border: 1px solid rgb(176, 175, 175);
+  }
+
+  .workBox:hover .workCount {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    background-color: grey;
+    border-radius: 25px;
+    width: 25%;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 4px 8px;
+    margin-left: 3px;
+    align-items: center;
+  }
+
+  .workCountBox {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .workImage {
+    height: 250px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .workviewCount {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .workCount {
+    display: none;
+  }
+
+  .workSocialIcons {
+    height: 20px;
+    width: 20px;
+  }
+
+  .workImageSubs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+
+  .workTitle {
+    font-size: 22px;
+  }
+
+  .workSubtitle {
+    font-size: 18px;
+    padding: 8px 6px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .workContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 20px 20px;
+  }
+
+  .workBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    border: 1px solid rgb(176, 175, 175);
+  }
+
+  .workBox:hover .workCount {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    background-color: grey;
+    border-radius: 25px;
+    width: 25%;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 4px 8px;
+    margin-left: 3px;
+    align-items: center;
+  }
+
+  .workCountBox {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .workImage {
+    height: 250px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .workviewCount {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .workCount {
+    display: none;
+  }
+
+  .workSocialIcons {
+    height: 20px;
+    width: 20px;
+  }
+
+  .workImageSubs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+
+  .workTitle {
+    font-size: 22px;
+  }
+
+  .workSubtitle {
+    font-size: 18px;
+    padding: 8px 6px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .workContainer {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 30px;
+    padding: 20px 20px;
+    justify-content: center;
+  }
+
+  .workBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    border: 1px solid rgb(176, 175, 175);
+  }
+
+  .workBox:hover .workCount {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    background-color: grey;
+    border-radius: 25px;
+    width: 25%;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 4px 8px;
+    margin-left: 3px;
+    align-items: center;
+  }
+
+  .workCountBox {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .workImage {
+    height: 150px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .workviewCount {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .workCount {
+    display: none;
+  }
+
+  .workSocialIcons {
+    height: 20px;
+    width: 20px;
+  }
+
+  .workImageSubs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+
+  .workTitle {
+    font-size: 19px;
+    font-weight: bolder;
+  }
+
+  .workSubtitle {
+    font-size: 13px;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .workContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px 20px;
+  }
+
+  .workBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    border: 1px solid rgb(176, 175, 175);
+  }
+
+  .workBox:hover .workCount {
+    display: none;
+  }
+
+  .workCountBox {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .workImage {
+    height: 150px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .workviewCount {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+
+  .workCount {
+    display: none;
+  }
+
+  .workSocialIcons {
+    height: 20px;
+    width: 20px;
+  }
+
+  .workImageSubs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+
+  .workTitle {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .workSubtitle {
+    font-size: 13px;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .workContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 20px 20px;
+    justify-content: center;
+  }
+
+  .workBox {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    border: 1px solid rgb(176, 175, 175);
+  }
+
+  .workBox:hover .workCount {
+    display: none;
+  }
+
+  .workCountBox {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .workImage {
+    height: 190px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .workviewCount {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+
+  .workCount {
+    display: none;
+  }
+
+  .workSocialIcons {
+    height: 20px;
+    width: 20px;
+  }
+
+  .workImageSubs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+
+  .workTitle {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .workSubtitle {
+    font-size: 13px;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    text-align: center;
+  }
+}
+
+

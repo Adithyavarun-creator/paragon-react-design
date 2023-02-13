@@ -1,0 +1,204 @@
+@media (min-width: 1281px) {
+  .sliderBox {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  .sectionPosition {
+    position: relative;
+  }
+
+  .sliderImage {
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+    z-index: -4;
+  }
+
+  .sliderText {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    right: 40px;
+    padding: 10px 12px;
+    background-color: black;
+    border: 3px solid orangered;
+    border-radius: 20px;
+  }
+
+  .sliderImageText {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .sliderBox {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  .sectionPosition {
+    position: relative;
+  }
+
+  .sliderImage {
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+    z-index: -4;
+  }
+
+  .sliderText {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    right: 40px;
+    padding: 10px 12px;
+    background-color: black;
+    border: 3px solid orangered;
+    border-radius: 20px;
+  }
+
+  .sliderImageText {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sliderBox {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  .sectionPosition {
+    position: relative;
+  }
+
+  .sliderImage {
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 350px;
+    z-index: -4;
+  }
+
+  .sliderText {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    right: 40px;
+    padding: 10px 10px;
+    background-color: black;
+    border: 3px solid orangered;
+    border-radius: 20px;
+  }
+
+  .sliderImageText {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .sliderBox {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  .sectionPosition {
+    position: relative;
+  }
+
+  .sliderImage {
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 300px;
+    z-index: -4;
+  }
+
+  .sliderText {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    right: 40px;
+    padding: 8px 6px;
+    background-color: black;
+    border: 3px solid orangered;
+    border-radius: 20px;
+  }
+
+  .sliderImageText {
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .sliderBox {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  .sectionPosition {
+    position: relative;
+  }
+
+  .sliderImage {
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    z-index: -4;
+  }
+
+  .sliderText {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    right: 40px;
+    padding: 8px 6px;
+    background-color: black;
+    border: 3px solid orangered;
+    border-radius: 20px;
+  }
+
+  .sliderImageText {
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+}
