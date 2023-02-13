@@ -32,7 +32,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={100}
             delay={1000}
           >
@@ -45,7 +45,7 @@ const Navbar = () => {
             to="works"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={100}
             delay={1000}
           >
@@ -56,7 +56,7 @@ const Navbar = () => {
             to="blogs"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={100}
             delay={800}
           >
@@ -64,12 +64,12 @@ const Navbar = () => {
           </ScrollLink>
           <ScrollLink
             activeClass="active"
-            to="contact"
+            to="contacts"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={100}
-            delay={1000}
+            delay={800}
           >
             <li className="navCompanyList">Contact</li>
           </ScrollLink>

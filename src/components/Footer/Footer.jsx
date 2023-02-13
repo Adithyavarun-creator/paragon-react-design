@@ -9,7 +9,7 @@ const Footer = () => {
 
   const Success = () => {
     return (
-      <div className="footerState" id="contact">
+      <div className="footerState">
         <span className="footerthankstext">
           Thanks for contacting us, your response is received , will contact you
           by a hour
@@ -20,7 +20,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="footerContainer">
+      <footer className="footerContainer" id="contacts">
         <TitleBox
           heading="Want to do Freelance"
           subheading="Fill in your details"
