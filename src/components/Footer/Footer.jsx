@@ -9,7 +9,7 @@ const Footer = () => {
 
   const Success = () => {
     return (
-      <div className="footerState">
+      <div className="footerState" id="contact">
         <span className="footerthankstext">
           Thanks for contacting us, your response is received , will contact you
           by a hour

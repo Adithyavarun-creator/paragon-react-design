@@ -14,7 +14,7 @@ const Blog = () => {
   return (
     <>
       <TitleBox heading="What I Posts" subheading="My Blog Contents" />
-      <div className="blogContainer">
+      <div className="blogContainer" id="blogs">
         {blogData.map((data) => (
           <Link
             to={`/blog/${data.blogSlug}`}
@@ -49,7 +49,9 @@ const Blog = () => {
                   </div>
                   <div className="blogViewItem">
                     <MdOutlineInsertComment className="blogIcon" />
-                    <span className="blogAuthorname">{data.blogComments} Comments</span>
+                    <span className="blogAuthorname">
+                      {data.blogComments} Comments
+                    </span>
                   </div>
                 </div>
               </div>

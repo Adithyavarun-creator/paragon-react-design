@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { ReactComponent as MenuSVG } from "../../assets/navImages/menu.svg";
 import { ReactComponent as CloseSVG } from "../../assets/navImages/close.svg";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,15 +14,65 @@ const Navbar = () => {
           <span>Company</span>
         </div>
         <div className="navCompanyLists">
-          <li to="#" className="navCompanyList">
-            Home
-          </li>
-          <li to="about" className="navCompanyList">
-            About
-          </li>
-          <li className="navCompanyList">Work</li>
-          <li className="navCompanyList">My Blog</li>
-          <li className="navCompanyList">Contact</li>
+          <ScrollLink
+            activeClass="active"
+            to="#"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={100}
+            delay={1000}
+          >
+            <li to="#" className="navCompanyList">
+              Home
+            </li>
+          </ScrollLink>
+          <ScrollLink
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={100}
+            delay={1000}
+          >
+            <li to="about" className="navCompanyList">
+              About
+            </li>
+          </ScrollLink>
+          <ScrollLink
+            activeClass="active"
+            to="works"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={100}
+            delay={1000}
+          >
+            <li className="navCompanyList">Work</li>
+          </ScrollLink>
+          <ScrollLink
+            activeClass="active"
+            to="blogs"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={100}
+            delay={800}
+          >
+            <li className="navCompanyList">My Blog</li>
+          </ScrollLink>
+          <ScrollLink
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={100}
+            delay={1000}
+          >
+            <li className="navCompanyList">Contact</li>
+          </ScrollLink>
         </div>
         <div className="navBuy">
           <button className="navBuyButton">Buy Now</button>

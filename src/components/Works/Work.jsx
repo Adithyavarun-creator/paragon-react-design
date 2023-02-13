@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <>
       <TitleBox heading="Visit My" subheading="Latest Works" />
-      <div className="workContainer">
+      <div className="workContainer" id="works">
         {workDatas.map((work) => (
           <Link to={`work/${work.id}`} className="linkStyle" key={work.id}>
             <div className="workBox">

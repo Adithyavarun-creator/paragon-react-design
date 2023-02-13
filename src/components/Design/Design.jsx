@@ -4,7 +4,7 @@ import "./Design.css";
 const Design = () => {
   return (
     <>
-      <div className="designContainer mb1">
+      <div className="designContainer mb1" id="about">
         <div className="designContainerImageBox">
           <img
             src="https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=2000&q=60"
